@@ -1,0 +1,8 @@
+# Credenciais locais — nunca versionar
+.env
+.env.*
+!.env.example
+
+# Artefatos de execução
+cookies.txt
+*.tmp
