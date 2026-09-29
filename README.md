@@ -12,6 +12,7 @@ Documentação de referência de APIs públicas, uma pasta por API.
 | [Reddit](reddit/README.md) | `reddit/` | OAuth2 app-only | Sim |
 | [Google Trends](google_trends/README.md) | `google_trends/` | Nenhuma | Não |
 | [Wikipedia + Wikidata](wikipedia_wikidata/README.md) | `wikipedia_wikidata/` | Nenhuma (User-Agent obrigatório) | Não |
+| [MaxMind GeoLite2](maxmind_geolite2/README.md) | `maxmind_geolite2/` | HTTP Basic (account ID + license key) | Sim |
 
 ## Padrão de cada pasta
 
@@ -40,6 +41,5 @@ As demais foram levantadas a partir das integrações do projeto
 [`agora_na_copa_2026`](https://github.com/mpbarbosa/agora_na_copa_2026) e
 validadas com chamadas reais.
 
-> **Não incluído:** MaxMind **GeoLite2-Country**, também usada naquele projeto,
-> é um banco `.mmdb` consultado localmente — não é uma API HTTP, então não
-> ganhou pasta aqui.
+`maxmind_geolite2/` cobre as três formas de consumo — banco `.mmdb` local
+(a usada naquele projeto, sem rede), API de download e web services HTTP.

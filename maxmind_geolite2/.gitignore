@@ -1,0 +1,11 @@
+# Credenciais locais — nunca versionar
+.env
+.env.*
+!.env.example
+
+# Bancos de dados e artefatos de download
+*.mmdb
+*.tar.gz
+*.zip
+GeoIP.conf
+cookies.txt
