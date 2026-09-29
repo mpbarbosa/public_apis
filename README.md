@@ -13,6 +13,7 @@ Documentação de referência de APIs públicas, uma pasta por API.
 | [Google Trends](google_trends/README.md) | `google_trends/` | Nenhuma | Não |
 | [Wikipedia + Wikidata](wikipedia_wikidata/README.md) | `wikipedia_wikidata/` | Nenhuma (User-Agent obrigatório) | Não |
 | [MaxMind GeoLite2](maxmind_geolite2/README.md) | `maxmind_geolite2/` | HTTP Basic (account ID + license key) | Sim |
+| [TSE — Tribunal Superior Eleitoral](tse/README.md) | `tse/` | Nenhuma (bloqueio anti-bot Akamai) | Não |
 
 ## Padrão de cada pasta
 
